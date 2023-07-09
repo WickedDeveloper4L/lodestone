@@ -1,10 +1,11 @@
 import Hero from "@/components/Hero/Hero";
 import React from "react";
-
+import Sponsor from "@/components/Sponsor/Sponsor";
 const Home = () => {
   return (
-    <div className={styles.home}>
+    <div>
       <Hero />
+      <Sponsor />
     </div>
   );
 };
