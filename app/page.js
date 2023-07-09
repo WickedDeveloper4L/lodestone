@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero/Hero";
-import styles from "./page.module.css";
 import React from "react";
 
 const Home = () => {
