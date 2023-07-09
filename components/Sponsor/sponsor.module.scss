@@ -1,0 +1,41 @@
+.main {
+  height: 300px;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  .boxes {
+    width: 248px;
+    height: 186px;
+    max-height: 248px;
+    border: 1px solid #d7e2ea;
+    flex: 0 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    margin-left: -1px;
+    padding: 24px;
+    display: flex;
+
+    .img {
+      max-width: 100%;
+      display: inline-block;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: fit-content;
+  }
+}

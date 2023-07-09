@@ -10,7 +10,6 @@ import Link from "next/link";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [scroll, setScroll] = useState(0);
-  console.log(scroll);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY);
