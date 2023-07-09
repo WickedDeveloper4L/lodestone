@@ -38,7 +38,7 @@ const Hero = () => {
         className="swiper"
       >
         <SwiperSlide className="swiperSlide">
-          <Image src={photo1} />
+          <Image src={photo1} alt="carousel" />
           <div className="swiperText">
             <div className="text">
               <div className="intro">
@@ -67,7 +67,7 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
-          <Image src={photo2} />
+          <Image src={photo2} alt="carousel" />
           <div className="swiperText">
             <div className="text">
               <div className="intro">
@@ -94,7 +94,7 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
-          <Image src={photo3} />
+          <Image src={photo3} alt="carousel" />
           <div className="swiperText">
             <div className="text">
               <div className="intro">
@@ -123,7 +123,7 @@ const Hero = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
-          <Image src={photo4} />
+          <Image src={photo4} alt="carousel" />
           <div className="swiperText">
             <div className="text">
               <div className="intro">
@@ -149,9 +149,9 @@ const Hero = () => {
             </div>
           </div>
         </SwiperSlide>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div className="swiper-pagination"></div>
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
       </Swiper>
     </div>
   );
