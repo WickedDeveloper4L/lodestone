@@ -1,8 +1,6 @@
 import Hero from "@/components/Hero/Hero";
-import Links from "@/components/Links/Links";
 import Sponsor from "@/components/Sponsor/Sponsor";
-import React from "react";
-
+import Links from "@/components/Links/Links";
 const Home = () => {
   return (
     <div>
