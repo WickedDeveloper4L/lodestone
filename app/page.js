@@ -1,7 +1,7 @@
 import React from "react";
-
+import styles from "./page.module.css";
 const Home = () => {
-  return <div>Home</div>;
+  return <div className={styles.main}>Home</div>;
 };
 
 export default Home;
