@@ -1,5 +1,5 @@
 "use client";
-import styles from "./hero.scss";
+import "./hero.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -18,7 +18,6 @@ const Hero = () => {
   return (
     <div className="hero">
       <Swiper
-        // install Swiper modules
         modules={[Navigation, Pagination, Autoplay]}
         navigation={{
           nextEl: ".swiper-button-next",
@@ -29,10 +28,10 @@ const Hero = () => {
           el: ".swiper-pagination",
         }}
         loop={true}
-        speed={2000}
+        speed={1000}
         centeredSlides={true}
         autoplay={{
-          delay: 3000,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         className="swiper"
@@ -46,7 +45,9 @@ const Hero = () => {
               </div>
               <div className="line"></div>
               <div className="heading">
-                <h1>Private patient scans, on-demand</h1>
+                <h1 className={roboto_mono.className}>
+                  Private patient scans on-demand
+                </h1>
               </div>
               <div className="desc">
                 <p>
@@ -63,7 +64,6 @@ const Hero = () => {
                 <button className={roboto_mono.className}>REQUEST SCAN</button>
               </div>
             </div>
-            <div className="empty"></div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiperSlide">
@@ -75,7 +75,9 @@ const Hero = () => {
               </div>
               <div className="line"></div>
               <div className="heading">
-                <h1>Your trusted partner for Community Diagnostic Centres</h1>
+                <h1 className={roboto_mono.className}>
+                  Your trusted partner for Community Diagnostic Centres
+                </h1>
               </div>
               <div className="desc">
                 <p>
@@ -102,7 +104,9 @@ const Hero = () => {
               </div>
               <div className="line"></div>
               <div className="heading">
-                <h1>National contract holder for PET-CT</h1>
+                <h1 className={roboto_mono.className}>
+                  National contract holder for PET-CT
+                </h1>
               </div>
               <div className="desc">
                 <p>
@@ -131,7 +135,9 @@ const Hero = () => {
               </div>
               <div className="line"></div>
               <div className="heading">
-                <h1>Dedicated to diagnostics</h1>
+                <h1 className={roboto_mono.className}>
+                  Dedicated to diagnostics
+                </h1>
               </div>
               <div className="desc">
                 <p>
