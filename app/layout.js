@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
 import { Roboto } from "next/font/google";
@@ -16,13 +16,12 @@ export const roboto_mono = Roboto_Mono({
   weight: ["300", "400", "700"],
 });
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
         <Navbar />
-        {children}
+        <div>{children}</div>
         <Links />
         <Footer />
       </body>
