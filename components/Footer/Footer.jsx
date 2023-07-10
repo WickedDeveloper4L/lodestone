@@ -10,7 +10,7 @@ const Footer = () => {
         <p>© Copyright 2022 Lodstone Medicals Limited</p>
       </div>
       <div className={styles.logo}>
-        <Image src={logo} />
+        <Image src={logo} alt="logo" />
       </div>
       <div className={styles.links}>
         <p>Privacy policy</p>
