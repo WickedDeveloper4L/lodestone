@@ -1,0 +1,112 @@
+.aboutPage {
+  //   padding-top: 6rem;
+  .header {
+    padding: 3rem 4rem;
+    padding-top: 8rem;
+    background-color: #084c7b;
+    @media screen and (max-width: 450px) {
+      padding: 3rem 2rem;
+      padding-top: 8rem;
+    }
+    .spans {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      @media screen and (max-width: 400px) {
+        gap: 1rem;
+      }
+      .btn {
+        color: #fff;
+        padding: 0.5rem 1rem;
+        background-color: rgba(211, 208, 208, 0.29);
+        border-radius: 30px;
+        @media screen and (max-width: 400px) {
+          padding: 0.6rem 0.6rem;
+          font-size: 0.8rem;
+        }
+      }
+      .slash {
+        color: #fff;
+      }
+      .grey {
+        color: rgb(179, 177, 177);
+        @media screen and (max-width: 400px) {
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .heading {
+      margin-top: 2rem;
+      color: #fff;
+      @media screen and (max-width: 450px) {
+        font-size: 0.9rem;
+      }
+      @media screen and (max-width: 400px) {
+        font-size: 0.7rem;
+      }
+      h1 {
+        font-weight: 400;
+      }
+    }
+  }
+  .grid {
+    padding: 2rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    @media screen and (max-width: 650px) {
+      grid-template-columns: 1fr;
+      margin-bottom: 5rem;
+    }
+    @media screen and (max-width: 450px) {
+      padding: 2rem 2rem;
+    }
+    // gap: 8rem;
+
+    .text {
+      display: grid;
+      width: 80%;
+      .why {
+        margin-bottom: 2rem;
+        .topic {
+          font-size: 1.5rem;
+        }
+        .desc {
+          margin-top: 1rem;
+          color: rgb(156, 155, 155);
+          line-height: 1.8rem;
+          letter-spacing: 0.4px;
+          .subTopic {
+            color: black;
+            font-weight: 600;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+    .image {
+      // justify-self: center;
+      .photo {
+        background-color: #084c7b;
+        width: 90%;
+        height: 25rem;
+        position: relative;
+        @media screen and (max-width: 650px) {
+          height: 20rem;
+        }
+        @media screen and (max-width: 400px) {
+          height: 15rem;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          position: absolute;
+          top: 2rem;
+          left: 2rem;
+        }
+      }
+    }
+  }
+}
