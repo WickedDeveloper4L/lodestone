@@ -56,17 +56,17 @@ const Navbar = () => {
             </Link>
             <Link
               onClick={() => setToggle(false)}
-              href="/"
+              href="/about"
               className="sidelink"
             >
-              For patients
+              About us
             </Link>
             <Link
               onClick={() => setToggle(false)}
-              href="/"
+              href="/contact-us"
               className="sidelink"
             >
-              For clinicians
+              Contact us
             </Link>
             <Link
               onClick={() => setToggle(false)}
