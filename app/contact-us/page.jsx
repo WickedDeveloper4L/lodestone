@@ -1,6 +1,11 @@
 import React from "react";
 import styles from "./contact.module.scss";
 import { roboto_condensed } from "../layout";
+
+export const metadata = {
+  title: "Reach us - Lodestone patient care hospital",
+  description: "Life, care.",
+};
 const Contact = () => {
   return (
     <div className={styles.main}>
