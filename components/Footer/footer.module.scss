@@ -4,22 +4,46 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  @media screen and (max-width: 650px) {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+  }
 
   .logo {
     img {
       width: 10rem;
       height: 10rem;
+      @media screen and (max-width: 650px) {
+        width: 7rem;
+        height: 7rem;
+      }
     }
   }
   .credits {
+    @media screen and (max-width: 650px) {
+      display: grid;
+      justify-content: center;
+      width: 100%;
+    }
     color: #fff;
+    @media screen and (max-width: 450px) {
+      font-size: 0.7rem;
+    }
   }
   .links {
     display: grid;
-    gap: 0.5rem;
+    gap: 1rem;
     text-align: right;
+    @media screen and (max-width: 650px) {
+      text-align: left;
+      gap: 2rem;
+    }
     p {
       color: #d0cece;
+      @media screen and (max-width: 450px) {
+        font-size: 0.8rem;
+      }
       &:hover {
         cursor: pointer;
         color: #fff;
