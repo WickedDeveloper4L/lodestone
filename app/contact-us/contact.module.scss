@@ -1,0 +1,87 @@
+.main {
+  //   width: 100vw;
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0.24),
+        rgba(0, 0, 0, 0.73)
+      ),
+      url("../../assets/contact-us.jpg");
+
+    height: fit-content;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @media screen and (max-width: 800px) {
+      padding: 24px;
+    }
+
+    .title {
+      font-size: 2.2rem;
+      font-weight: 500;
+      color: #fff;
+      margin-top: 7rem;
+      @media screen and (max-width: 800px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 20px;
+      background-color: #fff;
+
+      @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .first {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        width: 70%;
+
+        .top,
+        .mid {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 1rem;
+
+          .bold {
+            font-size: 1.2rem;
+            font-weight: 500;
+          }
+
+          .medium {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: rgb(0, 0, 0);
+          }
+        }
+      }
+
+      .second {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        height: fit-content;
+        width: 70%;
+
+        .bold {
+          font-size: 1.2rem;
+          font-weight: 500;
+        }
+
+        .medium {
+          font-size: 1.2rem;
+          font-weight: 300;
+          color: rgb(0, 0, 0);
+        }
+      }
+    }
+  }
+}

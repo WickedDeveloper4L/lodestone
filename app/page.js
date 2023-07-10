@@ -7,8 +7,6 @@ const Home = () => {
     <div>
       <Hero />
       <Sponsor />
-      <Links />
-      <Footer />
     </div>
   );
 };

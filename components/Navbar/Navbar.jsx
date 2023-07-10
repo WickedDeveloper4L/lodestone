@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./navbar.scss";
 import Image from "next/image";
 import LOGO from "../../assets/logoo.png";
-import { BsCalendar4, BsSearch } from "react-icons/bs";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 import Link from "next/link";
@@ -31,14 +31,13 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="second">
-        <span className="link req">
-          <BsCalendar4 className="icon" />
-          REQUEST SCAN
-        </span>
-        <span className="link search">
-          <BsSearch className="icon" />
-          SEARCH
-        </span>
+        <Link href="/contact-us" className="link req">
+          <FaMapMarkerAlt className="icon" />
+          CONTACT US
+        </Link>
+        <Link href="/about" className="link search">
+          ABOUT US
+        </Link>
         <span className="link" onClick={() => setToggle(true)}>
           <GiHamburgerMenu className="icon" />
           <span className="menutext">MENU</span>
