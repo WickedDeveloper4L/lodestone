@@ -141,7 +141,7 @@ const Hero = () => {
               </div>
               <div className="desc">
                 <p>
-                  Alliance Medical are leading the way in high-quality
+                  Lodestone Medical are leading the way in high-quality
                   diagnostic imaging. For over 30 years, our experts have
                   combined service excellence and innovation to improve patient
                   access, experiences and outcomes. Request a scan or find your
