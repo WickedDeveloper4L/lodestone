@@ -68,61 +68,13 @@ const Navbar = () => {
             >
               Contact us
             </Link>
+
             <Link
               onClick={() => setToggle(false)}
-              href="/"
-              className="sidelink"
-            >
-              For referrers
-            </Link>
-            <Link
-              onClick={() => setToggle(false)}
-              href="/"
-              className="sidelink"
-            >
-              Community diagnostic centres
-            </Link>
-            <Link
-              onClick={() => setToggle(false)}
-              href="/"
-              className="sidelink"
-            >
-              Private patients
-            </Link>
-            <Link
-              onClick={() => setToggle(false)}
-              href="/"
+              href="/contact-us"
               className="sidelink"
             >
               Find a centre
-            </Link>
-            <Link
-              onClick={() => setToggle(false)}
-              href="/"
-              className="sidelink"
-            >
-              Request a scan
-            </Link>
-            <Link
-              onClick={() => setToggle(false)}
-              href="/"
-              className="sidelink"
-            >
-              About us
-            </Link>
-            <Link
-              onClick={() => setToggle(false)}
-              href="/"
-              className="sidelink"
-            >
-              Join us
-            </Link>
-            <Link
-              onClick={() => setToggle(false)}
-              href="/"
-              className="sidelink"
-            >
-              For graduates
             </Link>
           </div>
         </div>
