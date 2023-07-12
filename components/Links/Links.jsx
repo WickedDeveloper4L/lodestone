@@ -6,19 +6,10 @@ const Links = () => {
   return (
     <div className={styles.main}>
       <div className={styles.navs}>
-        <Link href="/" className={styles.sidelink}>
-          For patients <span className={styles.arrow}>{">"}</span>
+        <Link href="/contact-us" className={styles.sidelink}>
+          Contact us <span className={styles.arrow}>{">"}</span>
         </Link>
-        <Link href="/" className={styles.sidelink}>
-          For clinicians <span className={styles.arrow}>{">"}</span>
-        </Link>
-        <Link href="/" className={styles.sidelink}>
-          For referrers <span className={styles.arrow}>{">"}</span>
-        </Link>
-        <Link href="/" className={styles.sidelink}>
-          Find a centre <span className={styles.arrow}>{">"}</span>
-        </Link>
-        <Link href="/" className={styles.sidelink}>
+        <Link href="/about" className={styles.sidelink}>
           About us <span className={styles.arrow}>{">"}</span>
         </Link>
       </div>
