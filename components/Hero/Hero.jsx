@@ -51,17 +51,19 @@ const Hero = () => {
               </div>
               <div className="desc">
                 <p>
-                  Our private patient service offers you quality, speed, and
-                  reliability. Get the scans you need, when you need them, at a
-                  price that suits. We offer daily appointments slots at 30+
-                  locations and deliver our reports in 24-48 hours.
+                  Our exclusive patient service provides high standards,
+                  efficiency, and dependability. Obtain the necessary scans
+                  promptly and conveniently, all at a reasonable cost. We have
+                  numerous appointment options available each day at over 10
+                  different venues, and we guarantee delivery of our reports
+                  within 24-48 hours.
                 </p>
               </div>
               <div className="buttons">
                 <button className={roboto_mono.className}>
                   PRICES AND MORE
                 </button>
-                <button className={roboto_mono.className}>REQUEST SCAN</button>
+                <button className={roboto_mono.className}>LEARN MORE</button>
               </div>
             </div>
           </div>
@@ -81,16 +83,16 @@ const Hero = () => {
               </div>
               <div className="desc">
                 <p>
-                  We're a leading medical imaging partner for over 100 NHS
-                  trusts. We created the UK’s first CDC and have delivered 9
-                  multi-modality CDCs. These are successfully reducing waiting
-                  lists and improving patient pathways. Discover more about our
-                  CDC solutions.
+                  As a leading medical imaging partner for over 100 NHS trusts,
+                  we have created the UK's first CDC and delivered 9
+                  multi-modality CDCs. These centers effectively reduce waiting
+                  lists and enhance patient pathways. Discover our CDC
+                  solutions.
                 </p>
               </div>
               <div className="buttons">
                 <button className={roboto_mono.className}>LEARN MORE</button>
-                <button className={roboto_mono.className}>FIND A CENTER</button>
+                <button className={roboto_mono.className}>CONTACT US</button>
               </div>
             </div>
           </div>
@@ -110,11 +112,13 @@ const Hero = () => {
               </div>
               <div className="desc">
                 <p>
-                  We deliver NHS PET-CT services to 80% of England, lead the
-                  Molecular Imaging Collaborative Network and manufacture and
-                  distribute SPECT & PET radiopharmaceuticals at 5 UK sites.
-                  Additionally, we're investing in and improving access to
-                  digital PET-CT.
+                  Our organization is responsible for providing NHS PET-CT
+                  services to 80% of England. We take the lead in the Molecular
+                  Imaging Collaborative Network and operate five sites in the UK
+                  where we manufacture and distribute SPECT & PET
+                  radiopharmaceuticals. Furthermore, we are actively investing
+                  in and enhancing the availability of digital PET-CT for
+                  improved accessibility.
                 </p>
               </div>
               <div className="buttons">
@@ -142,15 +146,15 @@ const Hero = () => {
               <div className="desc">
                 <p>
                   Lodestone Medical are leading the way in high-quality
-                  diagnostic imaging. For over 30 years, our experts have
+                  diagnostic imaging. For over 23 years, our experts have
                   combined service excellence and innovation to improve patient
                   access, experiences and outcomes. Request a scan or find your
                   nearest centre.
                 </p>
               </div>
               <div className="buttons">
-                <button className={roboto_mono.className}>FIND A CENTER</button>
-                <button className={roboto_mono.className}>REQUEST SCAN</button>
+                <button className={roboto_mono.className}>CONTACT US</button>
+                <button className={roboto_mono.className}>LEARN MORE</button>
               </div>
             </div>
           </div>
