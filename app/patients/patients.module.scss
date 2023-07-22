@@ -1,0 +1,44 @@
+.patients {
+  .heading {
+    padding-top: 5.5rem;
+    background-color: #084c7b;
+
+    h1 {
+      background-color: #fff;
+      padding-top: 6rem;
+      color: rgb(43, 42, 42);
+      padding-bottom: 3rem;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  .carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    img {
+      width: 100%;
+      height: 15rem;
+      object-fit: cover;
+    }
+  }
+  .list {
+    padding: 5rem 0rem;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+    @media screen and (max-width: 600px) {
+      padding: 5rem 1rem;
+    }
+  }
+  .testimonials {
+    padding: 7rem 5rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+}
