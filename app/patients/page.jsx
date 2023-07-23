@@ -31,7 +31,7 @@ const PatientsPage = () => {
               heading={"Referral"}
               number={1}
               content={
-                "Your doctor or clinician sends your imaging referral to Alliance Medical."
+                "Your doctor or clinician sends your imaging referral to Lodestone Patient Care Limited."
               }
             />
           </div>
