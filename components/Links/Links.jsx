@@ -6,6 +6,16 @@ const Links = () => {
   return (
     <div className={styles.main}>
       <div className={styles.navs}>
+        <Link href="/community" className={styles.sidelink}>
+          Community Diagnostic Center{" "}
+          <span className={styles.arrow}>{">"}</span>
+        </Link>
+        <Link href="/private-patients" className={styles.sidelink}>
+          Private Patients <span className={styles.arrow}>{">"}</span>
+        </Link>
+        <Link href="/patients" className={styles.sidelink}>
+          For Patients <span className={styles.arrow}>{">"}</span>
+        </Link>
         <Link href="/contact-us" className={styles.sidelink}>
           Contact us <span className={styles.arrow}>{">"}</span>
         </Link>
