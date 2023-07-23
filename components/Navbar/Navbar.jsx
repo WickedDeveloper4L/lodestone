@@ -3,10 +3,10 @@ import React, { useEffect, useState } from "react";
 import "./navbar.scss";
 import Image from "next/image";
 import LOGO from "../../assets/logoo.png";
-import { FaMapMarkerAlt } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 import Link from "next/link";
+import { BsTelephone } from "react-icons/bs";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [scroll, setScroll] = useState(0);
@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
       <div className="second">
         <Link href="/contact-us" className="link req">
-          <FaMapMarkerAlt className="icon" />
+          <BsTelephone className="icon" />
           CONTACT US
         </Link>
         <Link href="/about" className="link search">
@@ -54,6 +54,28 @@ const Navbar = () => {
             >
               Home
             </Link>
+
+            <Link
+              onClick={() => setToggle(false)}
+              href="/private-patients"
+              className="sidelink"
+            >
+              Private patients
+            </Link>
+            <Link
+              onClick={() => setToggle(false)}
+              href="/patients"
+              className="sidelink"
+            >
+              For patients
+            </Link>
+            <Link
+              onClick={() => setToggle(false)}
+              href="/community"
+              className="sidelink"
+            >
+              Community Diagnostics Center
+            </Link>
             <Link
               onClick={() => setToggle(false)}
               href="/about"
@@ -67,14 +89,6 @@ const Navbar = () => {
               className="sidelink"
             >
               Contact us
-            </Link>
-
-            <Link
-              onClick={() => setToggle(false)}
-              href="/contact-us"
-              className="sidelink"
-            >
-              Find a centre
             </Link>
           </div>
         </div>
