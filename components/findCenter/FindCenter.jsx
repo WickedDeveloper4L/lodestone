@@ -1,3 +1,4 @@
+"use client";
 import styles from "./findCenter.module.scss";
 import React from "react";
 import { roboto_mono } from "@/app/layout";

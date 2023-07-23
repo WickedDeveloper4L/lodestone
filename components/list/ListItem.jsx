@@ -1,3 +1,4 @@
+"use client";
 import styles from "./listItem.module.scss";
 import React from "react";
 import { roboto_condensed } from "@/app/layout";
