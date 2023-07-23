@@ -3,7 +3,7 @@ import styles from "./contact.module.scss";
 import { roboto_condensed } from "../layout";
 
 export const metadata = {
-  title: "Reach us - Lodestone patient care hospital",
+  title: "Reach us - Lodestone Patient Care Limited",
   description: "Life, care.",
 };
 const Contact = () => {
@@ -16,7 +16,7 @@ const Contact = () => {
             <div className={styles.top}>
               <span className={styles.bold}>Central support office</span>
               <span className={styles.medium}>
-                Lodestone Patient Care Hospital.
+                Lodestone Patient Care Limited.
               </span>
               <span className={styles.medium}>Aml Hub, The Woods</span>
               <span className={styles.medium}>Opus 40 Business Park</span>
@@ -46,8 +46,8 @@ const Contact = () => {
           <div className={styles.second}>
             <span className={styles.bold}>Press office</span>
             <span className={styles.medium}>
-              The Lodestone Patient Care Hospital office line can be contacted
-              on +44 7452 117852 or info@lodestonepatientcare.com.
+              The Lodestone Patient Care Limited office line can be contacted on
+              +44 7452 117852 or info@lodestonepatientcare.com.
             </span>
             <span className={styles.medium}>
               Please note the phone line is manned 9am-5.30pm Monday to Friday

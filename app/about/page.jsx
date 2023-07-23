@@ -5,7 +5,7 @@ import photo from "../assets/pexels-mart-production-7089392.jpg";
 import Image from "next/image";
 
 export const metadata = {
-  title: "About us - Lodestone patient care hospital",
+  title: "About us - Lodestone Patient Care Limited",
   description: "Life, care.",
 };
 const AboutPage = () => {

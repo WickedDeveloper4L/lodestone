@@ -20,10 +20,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="title" content="Lodestone Patient care Hospital" />
+        <meta name="title" content="Lodestone Patient Care Limited" />
         <meta
           name="description"
-          content="Welcome to Lodestone patient care Hospital - where compassionate care meets cutting-edge medicine. Our dedicated team of professionals provides personalized treatment in a welcoming and modern facility. Your health and well-being are our priority, ensuring a comforting and healing experience throughout your journey to recovery. Lodestone patient care hospital for exceptional healthcare and support."
+          content="Welcome to Lodestone Patient Care Limited - where compassionate care meets cutting-edge medicine. Our dedicated team of professionals provides personalized treatment in a welcoming and modern facility. Your health and well-being are our priority, ensuring a comforting and healing experience throughout your journey to recovery. Lodestone Patient Care Limited for exceptional healthcare and support."
         />
         <meta name="keywords" content="Hospital, Patient, NHS, health, MRi" />
         <meta name="robots" content="index, follow" />
