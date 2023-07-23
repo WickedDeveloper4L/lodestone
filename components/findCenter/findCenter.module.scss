@@ -1,0 +1,62 @@
+.findCenter {
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 0rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 246, 248);
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+  .text {
+    max-width: 20rem;
+    .heading {
+      font-size: 0.8rem;
+      font-weight: 400;
+      @media screen and (max-width: 600px) {
+        text-align: center;
+      }
+      h1 {
+        font-weight: 400;
+        letter-spacing: -1px;
+        word-spacing: -1px;
+      }
+    }
+    .desc {
+      margin-top: 1rem;
+      color: rgb(160, 160, 160);
+      font-size: 1.1rem;
+      @media screen and (max-width: 600px) {
+        text-align: center;
+      }
+      p {
+        // font-weight: 600;
+      }
+    }
+    .button {
+      margin-top: 2rem;
+      @media screen and (max-width: 600px) {
+        display: grid;
+        justify-content: center;
+      }
+      button {
+        border: none;
+        outline: 1px solid rgb(248, 83, 13);
+        background-color: transparent;
+        color: rgb(248, 83, 13);
+        // font-size: 1.1rem;
+        text-transform: uppercase;
+        padding: 0.8rem 2rem;
+        font-weight: 600;
+        border-radius: 5px;
+      }
+    }
+  }
+  .image {
+    img {
+      width: 17rem;
+      height: 18rem;
+      object-fit: cover;
+    }
+  }
+}

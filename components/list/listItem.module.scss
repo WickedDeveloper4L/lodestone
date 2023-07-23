@@ -1,0 +1,42 @@
+.listItem {
+  margin-bottom: 1.5rem;
+  .heading {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    .number {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f3aa23;
+      padding: 5px;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      h1 {
+        color: #0c527f;
+        font-size: 1.1rem;
+        font-weight: 700;
+      }
+    }
+    h1 {
+      font-weight: 400;
+      font-size: 1.5rem;
+      letter-spacing: -1px;
+      color: rgb(30, 30, 30);
+    }
+  }
+  .content {
+    color: rgb(148, 145, 145);
+    margin-top: 1rem;
+    border-left: 1px solid rgb(248, 83, 13);
+    margin-left: 1rem;
+    max-width: 50rem;
+    p {
+      padding: 1rem 3rem;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      line-height: 1.8rem;
+    }
+  }
+}
