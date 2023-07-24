@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.credits}>
-        <p>© Copyright 2022 Lodestone Patient Care Limited</p>
+        <p>© Copyright 2023 Lodestone Patient Care Limited</p>
       </div>
       <div className={styles.logo}>
         <Image src={logo} alt="logo" />
