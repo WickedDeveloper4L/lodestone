@@ -35,8 +35,8 @@ const Navbar = () => {
           <BsTelephone className="icon" />
           CONTACT US
         </Link>
-        <Link href="/about" className="link search">
-          ABOUT US
+        <Link href="/services" className="link search">
+          OUR SERVICES
         </Link>
         <span className="link" onClick={() => setToggle(true)}>
           <GiHamburgerMenu className="icon" />
@@ -54,7 +54,13 @@ const Navbar = () => {
             >
               Home
             </Link>
-
+            <Link
+              onClick={() => setToggle(false)}
+              href="/services"
+              className="sidelink"
+            >
+              Our services
+            </Link>
             <Link
               onClick={() => setToggle(false)}
               href="/private-patients"
