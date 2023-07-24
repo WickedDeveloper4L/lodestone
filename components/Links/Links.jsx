@@ -10,6 +10,9 @@ const Links = () => {
           Community Diagnostic Center{" "}
           <span className={styles.arrow}>{">"}</span>
         </Link>
+        <Link href="/services" className={styles.sidelink}>
+          Our Services<span className={styles.arrow}>{">"}</span>
+        </Link>
         <Link href="/private-patients" className={styles.sidelink}>
           Private Patients <span className={styles.arrow}>{">"}</span>
         </Link>
