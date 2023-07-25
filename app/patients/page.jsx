@@ -20,9 +20,9 @@ const PatientsPage = () => {
         <h1>Your Patient Journey</h1>
       </div>
       <div className={styles.carousel}>
-        <Image src={image2} alt="patient care" />
-        <Image src={image3} alt="patient care" />
-        <Image src={image4} alt="patient care" />
+        <Image width={200} height={200} src={image2} alt="patient care" />
+        <Image width={200} height={200} src={image3} alt="patient care" />
+        <Image width={200} height={200} src={image4} alt="patient care" />
       </div>
       <div className={styles.list}>
         <div className={styles.items}>

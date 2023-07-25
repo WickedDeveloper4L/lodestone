@@ -82,7 +82,13 @@ const page = () => {
             </Link>
           </span>
         </div>
-        <Image src={SMALL} alt="photo rep" className={styles.image} />
+        <Image
+          width={200}
+          height={200}
+          src={SMALL}
+          alt="photo rep"
+          className={styles.image}
+        />
       </div>
       <Steps />
     </div>

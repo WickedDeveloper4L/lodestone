@@ -10,7 +10,7 @@ const Footer = () => {
         <p>© Copyright 2023 Lodestone Patient Care Limited</p>
       </div>
       <div className={styles.logo}>
-        <Image src={logo} alt="logo" />
+        <Image width={200} height={200} src={logo} alt="logo" />
       </div>
       <div className={styles.links}>
         <p>Privacy policy</p>

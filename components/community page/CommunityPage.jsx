@@ -13,7 +13,7 @@ const CommunityPage = () => {
     <div className={styles.communityPage}>
       <div className={styles.hero}>
         <div className={styles.heroImage}>
-          <Image src={patient} alt="patient care" />
+          <Image width={200} height={200} src={patient} alt="patient care" />
           <div className={styles.heroText}>
             <div>
               <h1 className={roboto_mono.className}>
@@ -68,7 +68,7 @@ const CommunityPage = () => {
           </div>
         </div>
         <div className={styles.image}>
-          <Image src={scan} alt="scan" />
+          <Image width={200} height={200} src={scan} alt="scan" />
         </div>
       </div>
     </div>

@@ -71,7 +71,7 @@ const AboutPage = () => {
         </div>
         <div className={styles.image}>
           <div className={styles.photo}>
-            <Image src={photo} alt="MRI" />
+            <Image width={200} height={200} src={photo} alt="MRI" />
           </div>
         </div>
       </div>

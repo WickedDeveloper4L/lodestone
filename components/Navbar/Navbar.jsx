@@ -26,6 +26,7 @@ const Navbar = () => {
             className="logo"
             src={LOGO}
             width={150}
+            height={150}
             alt="lodestone medicals"
           />
         </Link>
