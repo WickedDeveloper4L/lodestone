@@ -27,7 +27,7 @@ const FindCenter = () => {
         </div>
       </div>
       <div className={styles.image}>
-        <Image src={map} alt="map" />
+        <Image width={200} height={200} src={map} alt="map" />
       </div>
     </div>
   );

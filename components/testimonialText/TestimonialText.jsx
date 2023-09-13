@@ -8,7 +8,7 @@ const TestimonialText = () => {
     <div className={styles.testimonialText}>
       <div className={styles.speech}>
         <div className={styles.quotes}>
-          <Image src={quotes} alt="quotes" />
+          <Image width={120} height={120} src={quotes} alt="quotes" />
         </div>
         <p>
           Wonderful, clean, spacious building. Helpful, friendly, professional

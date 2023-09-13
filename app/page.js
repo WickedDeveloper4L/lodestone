@@ -4,7 +4,7 @@ import FindCenter from "@/components/findCenter/FindCenter";
 import Steps from "@/components/steps/Steps";
 
 export const metadata = {
-  title: "Lodestone Patient Care Limited",
+  title: "Affinity Hospitals Limited",
   description: "Life, care.",
 };
 const Home = () => {

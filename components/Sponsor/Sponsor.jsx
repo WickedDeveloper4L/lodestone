@@ -12,7 +12,8 @@ const Sponsor = () => {
     <div className={styles.main}>
       <div className={styles.boxes}>
         <Image
-          width={120}
+          width={200}
+          height={120}
           className={styles.img}
           src={Sponsor1}
           alt="sponsor"
@@ -20,7 +21,8 @@ const Sponsor = () => {
       </div>
       <div className={styles.boxes}>
         <Image
-          width={120}
+          width={200}
+          height={120}
           className={styles.img}
           src={Sponsor2}
           alt="sponsor"
@@ -28,7 +30,8 @@ const Sponsor = () => {
       </div>
       <div className={styles.boxes}>
         <Image
-          width={120}
+          width={200}
+          height={120}
           className={styles.img}
           src={Sponsor3}
           alt="sponsor"
@@ -36,7 +39,8 @@ const Sponsor = () => {
       </div>
       <div className={styles.boxes}>
         <Image
-          width={120}
+          width={200}
+          height={120}
           className={styles.img}
           src={Sponsor4}
           alt="sponsor"
@@ -44,7 +48,8 @@ const Sponsor = () => {
       </div>
       <div className={styles.boxes}>
         <Image
-          width={120}
+          width={200}
+          height={120}
           className={styles.img}
           src={Sponsor5}
           alt="sponsor"
@@ -52,7 +57,8 @@ const Sponsor = () => {
       </div>
       <div className={styles.boxes}>
         <Image
-          width={120}
+          width={200}
+          height={120}
           className={styles.img}
           src={Sponsor6}
           alt="sponsor"

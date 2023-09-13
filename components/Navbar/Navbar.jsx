@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import "./navbar.scss";
 import Image from "next/image";
-import LOGO from "../../assets/logoo.png";
+import LOGO from "../../assets/affinity.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 import Link from "next/link";
@@ -26,7 +26,8 @@ const Navbar = () => {
             className="logo"
             src={LOGO}
             width={150}
-            alt="lodestone medicals"
+            height={150}
+            alt="affinity medicals"
           />
         </Link>
       </div>

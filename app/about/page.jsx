@@ -5,7 +5,7 @@ import photo from "../assets/pexels-mart-production-7089392.jpg";
 import Image from "next/image";
 
 export const metadata = {
-  title: "About us - Lodestone Patient Care Limited",
+  title: "About us - Affinity Hospitals Limited",
   description: "Life, care.",
 };
 const AboutPage = () => {
@@ -71,7 +71,7 @@ const AboutPage = () => {
         </div>
         <div className={styles.image}>
           <div className={styles.photo}>
-            <Image src={photo} alt="MRI" />
+            <Image width={200} height={200} src={photo} alt="MRI" />
           </div>
         </div>
       </div>
