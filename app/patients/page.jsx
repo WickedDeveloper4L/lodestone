@@ -9,7 +9,7 @@ import FindCenter from "@/components/findCenter/FindCenter";
 import TestimonialText from "@/components/testimonialText/TestimonialText";
 
 export const metadata = {
-  title: "Lodestone patients",
+  title: "Affinity Patients",
   description: "Life, care.",
 };
 
@@ -31,7 +31,7 @@ const PatientsPage = () => {
               heading={"Referral"}
               number={1}
               content={
-                "Your doctor or clinician sends your imaging referral to Lodestone Patient Care Limited."
+                "Your doctor or clinician sends your imaging referral to Affinity Hospitals Limited."
               }
             />
           </div>

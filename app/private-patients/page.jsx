@@ -76,9 +76,9 @@ const page = () => {
             <Link
               className={styles.textlink}
               target="_blank"
-              href="mailto:info@lodestonepatientcare.com?subject=Private%20patient%20scan%20request"
+              href="mailto:info@affinityhospitals.com?subject=Private%20patient%20scan%20request"
             >
-              info@lodestonepatientcare.com
+              info@affinityhospitals.com
             </Link>
           </span>
         </div>

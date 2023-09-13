@@ -145,7 +145,7 @@ const Hero = () => {
               </div>
               <div className="desc">
                 <p>
-                  Lodestone Medical are leading the way in high-quality
+                  Affinity Hospitals are leading the way in high-quality
                   diagnostic imaging. For over 23 years, our experts have
                   combined service excellence and innovation to improve patient
                   access, experiences and outcomes. Request a scan or find your

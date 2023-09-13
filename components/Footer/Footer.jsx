@@ -1,13 +1,13 @@
 import Image from "next/image";
 import styles from "./footer.module.scss";
 import React from "react";
-import logo from "../../assets/logoo.png";
+import logo from "../../assets/affinity.png";
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.credits}>
-        <p>© Copyright 2023 Lodestone Patient Care Limited</p>
+        <p>© Copyright 2023 Affinity Hospitals Limited</p>
       </div>
       <div className={styles.logo}>
         <Image width={200} height={200} src={logo} alt="logo" />

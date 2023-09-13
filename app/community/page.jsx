@@ -4,7 +4,7 @@ import React from "react";
 import CommunityPage from "@/components/community page/CommunityPage";
 
 export const metadata = {
-  title: "Lodestone community",
+  title: "Affinity community",
   description: "Life, care.",
 };
 
