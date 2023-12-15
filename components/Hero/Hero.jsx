@@ -9,7 +9,7 @@ import "swiper/css/scrollbar";
 import React from "react";
 import Image from "next/image";
 import photo1 from "../../app/assets/pexels-evg-kowalievska-1170979.jpg";
-import photo2 from "../../app/assets/pexels-yunus-tuğ-14580770.jpg";
+import photo2 from "../../app/assets/pexels-yunus-tu-14580770.jpg";
 import photo3 from "../../app/assets/pexels-mart-production-7089392.jpg";
 import photo4 from "../../app/assets/pexels-gustavo-fring-3985299.jpg";
 import { roboto_mono } from "@/app/layout";

@@ -4,7 +4,7 @@ import React from "react";
 import { roboto_mono } from "@/app/layout";
 import { roboto_condensed } from "@/app/layout";
 import Image from "next/image";
-import patient from "../../app/assets/pexels-yunus-tuğ-14580770.jpg";
+import patient from "../../app/assets/pexels-yunus-tu-14580770.jpg";
 import scan from "../../app/assets/pexels-gustavo-fring-3985299.jpg";
 import Link from "next/link";
 
